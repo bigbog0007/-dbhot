@@ -15,10 +15,12 @@ int Setup()
 }*/
 
 #include <stdio.h>
+#include <stdlib.h>
 
 int main()
 {
-	printf("%s:%d\n",_FILE_,_LINE);
-	printf("%s,%s\n",_DATE_,_TIME);
+//	printf("%s:%d\n",__FILE__,__LINE);
+//	printf("%s,%s\n",__DATE__,__TIME);
+	printf("hello git\n");
 	return 0;
 }
